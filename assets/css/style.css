@@ -6,6 +6,7 @@
 
 :root {
     --light-green-color: #0C3D3D;
+    --green: #46DE46;
 }
 
 main {
@@ -103,10 +104,33 @@ main {
     margin-top: 20px;
 }
 
-.info-box img{
+.info-box img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
 }
 
 /* ======clinnicl-trial-results-section end here ======= */
+
+/* ============Observational-study-section start here ============= */
+.bg-grren-text {
+    background-color: var(--green);
+    margin-top: 30px !important
+}
+
+.percentage-text {
+    font-size: 5rem;
+}
+
+/* ============Observational-study-section end here ============= */
+/* ============user section start here ========== */
+.user-section {
+    background-color: #F6F5F1;
+    padding-top: 60px;
+}
+
+.user-image {
+    width: 400px;
+}
+
+/* ============user section end here ========== */
