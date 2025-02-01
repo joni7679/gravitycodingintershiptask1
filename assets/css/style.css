@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-green-color: #0C3D3D;
+}
+
+main {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: myFonts;
+    src: url('../fonts/053fed2c10ae4bec-s.p.ttf');
+}
+
+@font-face {
+    font-family: mySecFonts;
+    src: url('../fonts/0674c40e16f79b8d-s.p.ttf');
+}
+
+
+@font-face {
+    font-family: myThriedFonts;
+    src: url('../fonts/21349e5a874ed2d1-s.p.ttf');
+}
+
+
+@font-face {
+    font-family: mylastfonts;
+    src: url('../fonts/456e9ec1dadfd7db-s.p.ttf');
+}
+
+
+.banner-img {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/banner-img.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-heading {
+    font-family: myThriedFonts;
+}
+
+.banner-right-part {
+    height: 100%;
+}
+
+
+.research-section {
+    padding: 30px;
+}
+
+.research-img {
+    width: 350px;
+}
+
+#research-text {
+    font-size: 3rem;
+}
+
+.research-para {
+    font-size: 18px;
+}
+
+/***** custom card start here   *****/
+.custom-card {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: left;
+    min-height: 120px;
+    transition: all 0.5s;
+}
+
+.custom-card:hover {
+    transition: all 0.6s;
+    background-color: var(--light-green-color);
+    cursor: pointer;
+    color: #fff;
+}
+
+.custom-card h5 {
+    font-weight: bold;
+}
+
+/* ======clinnicl-trial-results-section start here ======= */
+.cricle-img {
+    width: 500px;
+}
+
+.info-box {
+    background-color: var(--light-green-color);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.info-box img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+/* ======clinnicl-trial-results-section end here ======= */
