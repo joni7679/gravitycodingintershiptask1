@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,25 +18,13 @@ main {
 }
 
 @font-face {
-    font-family: myFonts;
-    src: url('../fonts/053fed2c10ae4bec-s.p.ttf');
+    font-family: arialfont;
+    src: url('../fonts/arial.ttf');
 }
 
 @font-face {
-    font-family: mySecFonts;
-    src: url('../fonts/0674c40e16f79b8d-s.p.ttf');
-}
-
-
-@font-face {
-    font-family: myThriedFonts;
-    src: url('../fonts/21349e5a874ed2d1-s.p.ttf');
-}
-
-
-@font-face {
-    font-family: mylastfonts;
-    src: url('../fonts/456e9ec1dadfd7db-s.p.ttf');
+    font-family: Arialnfont;
+    src: url('../fonts/Arialn.ttf');
 }
 
 
@@ -56,6 +47,8 @@ main {
 
 .research-section {
     padding: 30px;
+    font-family: arialfont;
+
 }
 
 .research-img {
@@ -92,6 +85,9 @@ main {
 }
 
 /* ======clinnicl-trial-results-section start here ======= */
+.clinnicl-trial-results-section{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .cricle-img {
     width: 500px;
 }
@@ -102,6 +98,7 @@ main {
     padding: 15px;
     border-radius: 10px;
     margin-top: 20px;
+
 }
 
 .info-box img {
@@ -127,7 +124,25 @@ main {
 .user-section {
     background-color: #F6F5F1;
     padding-top: 60px;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+
+
 }
+
+.quote-section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 106px;
+}
+
+.quote-section p {
+    font-size: 22px;
+    font-weight: 400;
+
+}
+
 
 .user-image {
     width: 400px;
