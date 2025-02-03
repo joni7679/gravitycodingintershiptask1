@@ -1,0 +1,58 @@
+@media only screen and (max-width: 600px) {
+
+    .research-section {
+        padding: 30px 10px;
+    }
+
+    .research-mob {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    #research-text {
+        font-size: 2rem;
+    }
+
+
+    /***** custom card start here   *****/
+    .card-container-mob {
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+
+    .custom-card {
+        display: flex;
+        align-items: center;
+        min-height: 0px;
+        padding: 10px 20px;
+        gap: 10px;
+        align-content: center;
+
+        & h5 {
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+
+        /* CHECK THE CODE */
+        & p {
+            margin-top: 8px;
+            font-size: 1.2rem;
+        }
+    }
+
+    /* ======clinnicl-trial-results-section start here ======= */
+    .container-mob {
+        padding: 25px;
+    }
+
+    .container-mob .heading {
+        font-size: 1.4rem;
+    }
+
+    .num-heading  {
+        font-size: 5rem;
+        font-weight: 200;
+    }
+
+
+}
